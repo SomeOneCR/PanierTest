@@ -63,8 +63,14 @@ public class Test1 {
 
     @Step("delete a list of product <table>")
     public void DeleteAListOfProductBy(Table arg0) {
-        List<String> prices=arg0.getColumnValues(1);
-       // basket.
+        List<String> prices = arg0.getColumnValues(1);
+        // basket.
+
+    }
+
+    @Step("delete a product named <cucmber>")
+    public void DeleteAProductByName(String arg0) {
+
 
     }
 }

@@ -4,7 +4,12 @@ Created by admin on 29/08/2018
 
 This is an executable specification file which follows markdown syntax.
 Every heading in this file denotes a scenario. Every bulleted point denotes a step.
-  
+       |product_name|product_price|
+       |------------|-------------|
+       |jus         |15.0         |
+       |cucumber    |12.0         |
+       |pen         |12.0         |
+       |wd          |12.0         |
 
 
 tags: panier
@@ -28,19 +33,3 @@ tags: panier
 
 
 
-##delet a product from basket
-
-* delete a product named <cucmber>
-* verifier the price of basket
-
-##delete a list of product from basket
-
- *delete a list of product
-     |product_name|product_price|
-     |------------|-------------|
-     |jus         |15.0         |
-     |cucumber    |12.0         |
-     |cucumber    |12.0         |
-     |cucumber    |12.0         |
-     
-* verifier the price of basket
